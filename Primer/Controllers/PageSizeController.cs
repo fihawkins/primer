@@ -6,7 +6,7 @@ namespace Primer.Controllers
 {
     public class PageSizeController : ApiController
     {
-        private static string TargetUrl = "http://apress.com";
+        private static string TargetUrl = "https://www.amazon.com/";
 
         public long GetPageSize()
         {
