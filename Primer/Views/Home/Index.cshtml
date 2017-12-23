@@ -9,8 +9,14 @@
     <script src="~/scripts/knockout-3.1.0.js"></script>
     <link href="~/Content/bootstrap.css" rel="stylesheet" />
     <link href="~/Content/bootstrap-theme.css" rel="stylesheet" />
+    <script src="~/scripts/primer.js"></script>
 </head>
 <body>
-    <h2>Content will be added here</h2>
+    <div class="alert alert-success">
+        <span data-bind="text: modelData"></span>
+    </div>
+    <button class="btn btn-primary" data-bind="click: sendRequest">
+        Send Request
+    </button>
 </body>
 </html>
